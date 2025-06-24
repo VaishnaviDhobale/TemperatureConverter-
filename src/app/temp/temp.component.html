@@ -1,0 +1,16 @@
+<div id="container">
+  <h2>Temperature Converter🌞</h2>
+  <input type="number" [(ngModel)]="celsius" placeholder="Enter Celsius" />
+  <button (click)="convertToFahrenheit()">Convert to Fahrenheit</button>
+
+  <br /><br />
+
+  <input
+    type="number"
+    [(ngModel)]="fahrenheit"
+    placeholder="Enter Fahrenheit"
+  />
+  <button (click)="convertToCelsius()">Convert to Celsius</button>
+
+  <p id="show">{{show}}</p>
+</div>
