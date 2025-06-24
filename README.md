@@ -24,7 +24,7 @@ A simple Angular app that lets users convert temperature values between **Celsiu
 ---
 
 ### Project SnapShots
-(src/assets/image.png)
+![](src/assets/image.png)
 ### 1️⃣ Clone the Repository
 
 ```bash
